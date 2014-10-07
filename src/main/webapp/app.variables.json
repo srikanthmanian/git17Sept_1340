@@ -1,21 +1,120 @@
 {
-    "goToPage-Main": {
-        "category": "wm.NavigationVariable",
-        "operation": "gotoPage",
-        "pageName": "Main",
-        "_id": "wm-wm.NavigationVariable1389180517517",
-        "name": "goToPage-Main"
-    },
-    "supportedLocale": {
-        "name": "supportedLocale",
-        "type": "string",
-        "isList": false,
-        "owner": "App",
-        "dataSet": {
-            "en": "English"
-        },
-        "saveInPhonegap": false,
-        "category": "wm.Variable",
-        "_id": "wm-wm.Variable1402640443182"
-    }
+	"goToPage-Main": {
+		"category": "wm.NavigationVariable",
+		"operation": "gotoPage",
+		"pageName": "Main",
+		"_id": "wm-wm.NavigationVariable1389180517517",
+		"name": "goToPage-Main"
+	},
+	"supportedLocale": {
+		"name": "supportedLocale",
+		"type": "string",
+		"isList": false,
+		"owner": "App",
+		"dataSet": {
+			"en": "English"
+		},
+		"dataBinding": {
+			"dataValue": ""
+		},
+		"saveInPhonegap": false,
+		"category": "wm.Variable",
+		"_id": "wm-wm.Variable1402640443182"
+	},
+	"HrdbEmployeeData": {
+		"type": "Employee",
+		"isList": true,
+		"owner": "App",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 20,
+		"designMaxResults": 10,
+		"operation": "read",
+		"startUpdate": true,
+		"autoUpdate": true,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"liveSource": "hrdb",
+		"ignoreCase": false,
+		"matchMode": "start",
+		"category": "wm.LiveVariable",
+		"isDefault": true,
+		"_id": "wm-wm.LiveVariable1412676711246"
+	},
+	"HrdbVacationData": {
+		"type": "Vacation",
+		"isList": true,
+		"owner": "App",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 20,
+		"designMaxResults": 10,
+		"operation": "read",
+		"startUpdate": true,
+		"autoUpdate": true,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"liveSource": "hrdb",
+		"ignoreCase": false,
+		"matchMode": "start",
+		"category": "wm.LiveVariable",
+		"isDefault": true,
+		"_id": "wm-wm.LiveVariable1412676711250"
+	},
+	"HrdbDepartmentData": {
+		"type": "Department",
+		"isList": true,
+		"owner": "App",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 20,
+		"designMaxResults": 10,
+		"operation": "read",
+		"startUpdate": true,
+		"autoUpdate": true,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"liveSource": "hrdb",
+		"ignoreCase": false,
+		"matchMode": "start",
+		"category": "wm.LiveVariable",
+		"isDefault": true,
+		"_id": "wm-wm.LiveVariable1412676711254"
+	},
+	"HrdbUserData": {
+		"type": "User",
+		"isList": true,
+		"owner": "App",
+		"dataSet": {
+			"dataValue": ""
+		},
+		"dataBinding": {},
+		"saveInPhonegap": false,
+		"firstRow": 0,
+		"maxResults": 20,
+		"designMaxResults": 10,
+		"operation": "read",
+		"startUpdate": true,
+		"autoUpdate": true,
+		"inFlightBehavior": "executeLast",
+		"transformationRequired": false,
+		"liveSource": "hrdb",
+		"ignoreCase": false,
+		"matchMode": "start",
+		"category": "wm.LiveVariable",
+		"isDefault": true,
+		"_id": "wm-wm.LiveVariable1412676711257"
+	}
 }
