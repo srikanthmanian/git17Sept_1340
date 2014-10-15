@@ -1,10 +1,17 @@
-<wm-page layouttype="blank" columns="1" data-ng-controller="MainPageController" name="page1">
+<wm-page layouttype="one-column" columns="1" data-ng-controller="MainPageController" name="page1">
+    <wm-header content="header" name="header1"></wm-header>
+    <wm-top-nav content="topnav" name="top-nav1"></wm-top-nav>
     <wm-content name="content1">
         <wm-row name="row1">
             <wm-column class="app-content-column" columnwidth="12" paddingleft="15" paddingright="15" name="mainContent">
                 <wm-label name="label1"></wm-label>
                 <wm-button name="button1"></wm-button>
+                <wm-composite widget="text" name="composite1">
+                    <wm-label class="col-md-2" name="label2"></wm-label>
+                    <wm-text name="text1"></wm-text>
+                </wm-composite>
             </wm-column>
         </wm-row>
     </wm-content>
+    <wm-footer content="footer" name="footer1"></wm-footer>
 </wm-page>
