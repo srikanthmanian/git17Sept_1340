@@ -1,10 +1,12 @@
 {
 	"goToPage-Main": {
-		"category": "wm.NavigationVariable",
+		"name": "goToPage-Main",
+		"owner": "Page",
 		"operation": "gotoPage",
 		"pageName": "Main",
-		"_id": "wm-wm.NavigationVariable1389180517517",
-		"name": "goToPage-Main"
+		"dataBinding": {},
+		"category": "wm.NavigationVariable",
+		"_id": "wm-wm.NavigationVariable1389180517517"
 	},
 	"supportedLocale": {
 		"name": "supportedLocale",
@@ -78,7 +80,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": "identity",
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "firstname",
@@ -90,7 +93,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "lastname",
@@ -102,7 +106,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "street",
@@ -114,7 +119,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "city",
@@ -126,7 +132,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "state",
@@ -138,7 +145,8 @@
 					"length": 2,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "zip",
@@ -150,7 +158,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "birthdate",
@@ -162,7 +171,8 @@
 					"length": 10,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "picurl",
@@ -174,7 +184,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "twitterid",
@@ -186,7 +197,8 @@
 					"length": 40,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "department",
@@ -199,6 +211,7 @@
 					"precision": 19,
 					"generator": "assigned",
 					"isRelated": true,
+					"defaultValue": null,
 					"relatedTableName": "DEPARTMENT",
 					"relatedEntityName": "Department",
 					"columns": [
@@ -212,7 +225,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": "identity",
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "name",
@@ -224,7 +238,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "budget",
@@ -236,7 +251,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "q1",
@@ -248,7 +264,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "q2",
@@ -260,7 +277,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "q3",
@@ -272,7 +290,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "q4",
@@ -284,7 +303,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "deptcode",
@@ -296,7 +316,8 @@
 							"length": 20,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "location",
@@ -308,7 +329,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "tenantid",
@@ -320,7 +342,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						}
 					],
 					"relatedFieldName": "department.deptid",
@@ -337,6 +360,7 @@
 					"precision": 19,
 					"generator": null,
 					"isRelated": true,
+					"defaultValue": null,
 					"relatedTableName": "EMPLOYEE",
 					"relatedEntityName": "Employee",
 					"columns": [
@@ -350,7 +374,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": "identity",
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "firstname",
@@ -362,7 +387,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "lastname",
@@ -374,7 +400,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "street",
@@ -386,7 +413,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "city",
@@ -398,7 +426,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "state",
@@ -410,7 +439,8 @@
 							"length": 2,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "zip",
@@ -422,7 +452,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "birthdate",
@@ -434,7 +465,8 @@
 							"length": 10,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "picurl",
@@ -446,7 +478,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "twitterid",
@@ -458,7 +491,8 @@
 							"length": 40,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "department",
@@ -471,6 +505,7 @@
 							"precision": 19,
 							"generator": "assigned",
 							"isRelated": true,
+							"defaultValue": null,
 							"relatedTableName": "DEPARTMENT",
 							"relatedEntityName": "Department",
 							"columns": [
@@ -484,7 +519,8 @@
 									"length": 255,
 									"precision": 19,
 									"generator": "identity",
-									"isRelated": false
+									"isRelated": false,
+									"defaultValue": null
 								},
 								{
 									"fieldName": "name",
@@ -496,7 +532,8 @@
 									"length": 255,
 									"precision": 19,
 									"generator": null,
-									"isRelated": false
+									"isRelated": false,
+									"defaultValue": null
 								},
 								{
 									"fieldName": "budget",
@@ -508,7 +545,8 @@
 									"length": 255,
 									"precision": 19,
 									"generator": null,
-									"isRelated": false
+									"isRelated": false,
+									"defaultValue": null
 								},
 								{
 									"fieldName": "q1",
@@ -520,7 +558,8 @@
 									"length": 255,
 									"precision": 19,
 									"generator": null,
-									"isRelated": false
+									"isRelated": false,
+									"defaultValue": null
 								},
 								{
 									"fieldName": "q2",
@@ -532,7 +571,8 @@
 									"length": 255,
 									"precision": 19,
 									"generator": null,
-									"isRelated": false
+									"isRelated": false,
+									"defaultValue": null
 								},
 								{
 									"fieldName": "q3",
@@ -544,7 +584,8 @@
 									"length": 255,
 									"precision": 19,
 									"generator": null,
-									"isRelated": false
+									"isRelated": false,
+									"defaultValue": null
 								},
 								{
 									"fieldName": "q4",
@@ -556,7 +597,8 @@
 									"length": 255,
 									"precision": 19,
 									"generator": null,
-									"isRelated": false
+									"isRelated": false,
+									"defaultValue": null
 								},
 								{
 									"fieldName": "deptcode",
@@ -568,7 +610,8 @@
 									"length": 20,
 									"precision": 19,
 									"generator": null,
-									"isRelated": false
+									"isRelated": false,
+									"defaultValue": null
 								},
 								{
 									"fieldName": "location",
@@ -580,7 +623,8 @@
 									"length": 255,
 									"precision": 19,
 									"generator": null,
-									"isRelated": false
+									"isRelated": false,
+									"defaultValue": null
 								},
 								{
 									"fieldName": "tenantid",
@@ -592,7 +636,8 @@
 									"length": 255,
 									"precision": 19,
 									"generator": null,
-									"isRelated": false
+									"isRelated": false,
+									"defaultValue": null
 								}
 							],
 							"relatedFieldName": "department.deptid",
@@ -609,6 +654,7 @@
 							"precision": 19,
 							"generator": null,
 							"isRelated": true,
+							"defaultValue": null,
 							"relatedTableName": "EMPLOYEE",
 							"relatedEntityName": "Employee"
 						},
@@ -622,7 +668,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						}
 					],
 					"relatedFieldName": "employee.eid",
@@ -638,7 +685,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				}
 			],
 			"primaryKeys": [
@@ -697,7 +745,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": "identity",
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "startdate",
@@ -709,7 +758,8 @@
 					"length": 10,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "enddate",
@@ -721,7 +771,8 @@
 					"length": 10,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "employee",
@@ -734,6 +785,7 @@
 					"precision": 19,
 					"generator": "assigned",
 					"isRelated": true,
+					"defaultValue": null,
 					"relatedTableName": "EMPLOYEE",
 					"relatedEntityName": "Employee",
 					"columns": [
@@ -747,7 +799,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": "identity",
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "firstname",
@@ -759,7 +812,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "lastname",
@@ -771,7 +825,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "street",
@@ -783,7 +838,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "city",
@@ -795,7 +851,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "state",
@@ -807,7 +864,8 @@
 							"length": 2,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "zip",
@@ -819,7 +877,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "birthdate",
@@ -831,7 +890,8 @@
 							"length": 10,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "picurl",
@@ -843,7 +903,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "twitterid",
@@ -855,7 +916,8 @@
 							"length": 40,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "deptid",
@@ -867,7 +929,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": "assigned",
-							"isRelated": true
+							"isRelated": true,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "managerid",
@@ -879,7 +942,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": true
+							"isRelated": true,
+							"defaultValue": null
 						},
 						{
 							"fieldName": "tenantid",
@@ -891,7 +955,8 @@
 							"length": 255,
 							"precision": 19,
 							"generator": null,
-							"isRelated": false
+							"isRelated": false,
+							"defaultValue": null
 						}
 					],
 					"relatedFieldName": "employee.eid",
@@ -907,7 +972,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				}
 			],
 			"primaryKeys": [
@@ -954,7 +1020,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": "identity",
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "name",
@@ -966,7 +1033,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "budget",
@@ -978,7 +1046,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "q1",
@@ -990,7 +1059,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "q2",
@@ -1002,7 +1072,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "q3",
@@ -1014,7 +1085,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "q4",
@@ -1026,7 +1098,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "deptcode",
@@ -1038,7 +1111,8 @@
 					"length": 20,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "location",
@@ -1050,7 +1124,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "tenantid",
@@ -1062,7 +1137,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				}
 			],
 			"primaryKeys": [
@@ -1109,7 +1185,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": "identity",
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "username",
@@ -1121,7 +1198,8 @@
 					"length": 20,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "password",
@@ -1133,7 +1211,8 @@
 					"length": 20,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "role",
@@ -1145,7 +1224,8 @@
 					"length": 20,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				},
 				{
 					"fieldName": "tenantid",
@@ -1157,7 +1237,8 @@
 					"length": 255,
 					"precision": 19,
 					"generator": null,
-					"isRelated": false
+					"isRelated": false,
+					"defaultValue": null
 				}
 			],
 			"primaryKeys": [
